@@ -17,9 +17,13 @@ function Clock() {
   }, []);
 
   return (
-    <>
-      <p>{hour}:{minute}:{second}</p>
-    </>
+    <div className='clockContainer'>
+      <p>
+      {hour >= 10 ? hour : '0' + hour}:
+      {minute >= 10 ? minute : '0' + minute}:
+      {second >= 10 ? second : '0' + second}
+      </p>
+    </div>
   );
 }
 
