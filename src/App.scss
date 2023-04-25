@@ -1,9 +1,2 @@
-@import './scss/clockStyle.scss';
-
-.curveLine {
-  position: absolute;
-  width: 100%;
-  height: 75%;
-  background-color: slateblue;
-  border-radius: 0 30% 50% 50%/ 0 0 20% 70%;
-}
+@import './scss/topBar/topBarStyle.scss';
+@import './scss/bottomBar/bottomBarStyle.scss';

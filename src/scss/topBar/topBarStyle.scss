@@ -1,0 +1,12 @@
+@import '../mainPartials/mixins.scss';
+@import './components/clockStyle.scss';
+@import './partials/variables.scss';
+
+.topBar {
+  display: flex;
+  @include align-to-the-center-onlyForDisplayFlex;
+  height: 50vh;
+  background-color: $primary-background-color;
+
+  border-radius: 0 0 30% 70% / 0 0 10% 30%;
+}

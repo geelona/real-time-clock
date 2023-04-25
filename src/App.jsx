@@ -1,11 +1,12 @@
 import './App.scss';
-import Clock from './components/clock.jsx'
+import TopBar from './components/topBar/topBar.jsx'
+import BottomBar from './components/bottomBar/bottomBar.jsx';
 
 function App() {
   return (
     <div className="App">
-      <div className='curveLine'></div>
-      <Clock />
+      <TopBar />
+      <BottomBar />
     </div>
   );
 }
