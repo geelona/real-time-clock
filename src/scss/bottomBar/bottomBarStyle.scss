@@ -1,4 +1,9 @@
+@import './components/geelonaDescription.scss';
+@import '../mainPartials/mixins.scss';
+
 .bottomBarContainer {
+  display: flex;
+  @include align-to-the-center-onlyForDisplayFlex;
   background-color: rgb(40, 40, 40);
   position: absolute;
   width: 100%;

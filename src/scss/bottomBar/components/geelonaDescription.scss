@@ -1,0 +1,21 @@
+@import '../../mainPartials/mixins.scss';
+
+.geelonaDescriptionContainer {
+  width: 700px;
+  height: 75px;
+  display: flex;
+  @include align-to-the-center-onlyForDisplayFlex;
+
+  
+  div {
+    color: white;
+    font-weight: 1000;
+    font-size: 30px;
+    
+    span {
+      color: gray;
+      font-weight: 500;
+      font-size: 15px;
+    }
+  }
+}
